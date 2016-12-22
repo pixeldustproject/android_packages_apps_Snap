@@ -46,8 +46,7 @@ public class CameraApp extends Application {
         SDCard.initialize(this);
     }
 
-    public static Context getContext()
-    {
+    public static Context getContext() {
         return mApp.getApplicationContext();
     }
 }
